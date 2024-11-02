@@ -5,3 +5,4 @@ Flask-SQLAlchemy
 gunicorn
 Jinja2
 psycopg2-binary
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
